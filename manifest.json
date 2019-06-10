@@ -1,0 +1,21 @@
+{
+ "background": {"scripts": ["background.js"]},
+ "browser_action": {
+ "default_icon": "icon-128.png",
+ "default_title": "e-mail Search"
+ },
+ "name": "e-mail Search",
+ "description": "e-mail Search ̶ it is a additional help in the process of searching for a email address - in Facebook, Twitter and by using Google Search",
+ "homepage_url": "http://github.com/albertidev",
+ "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" },
+ "permissions": [
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+ ],
+ "version": "0.1",
+ "manifest_version": 2
+}
